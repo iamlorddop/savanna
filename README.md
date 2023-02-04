@@ -10,7 +10,7 @@
 - `main.css` основной файл стилей;
 - `main.js` основной файл скриптов.
 
-В проекте используется методология [BEM](https://ru.bem.info/). Для стилизации используется [mobile first] (https://habr.com/ru/post/269419/).
+В проекте используется методология [BEM](https://ru.bem.info/). Для стилизации используется [mobile first](https://habr.com/ru/post/269419/).
 
 # Ссылки
 
