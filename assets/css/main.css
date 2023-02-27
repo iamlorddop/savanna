@@ -119,12 +119,25 @@ body {
   height: 300px;
 }
 
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+  .header__flex {
+    padding: 30px 0;
+  }
+
+  .header-nav__list {
+    display: flex;
+  }
+}
+
 @media (max-width: 700px) {
   .header__flex {
     padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .header__logo > img {
