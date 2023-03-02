@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="assets/img/favicons/180.png">
-    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Путешествия по Саванне</title>
 </head>
 <body>
@@ -68,16 +65,29 @@
                         
                         <div class="swiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">Slide 1</div>
-                                <div class="swiper-slide">Slide 2</div>
-                                <div class="swiper-slide">Slide 3</div>
+                                <div class="swiper-slide">
+                                    <div class="place-block">
+                                        <img class="place-block__image" src="assets/img/places_01.jpg">
+                                        <h3 class="subtitle">Парк Форсайт</h3>
+                                        <a href="#" class="btn">ПОДРОБНЕЕ</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="place-block">
+                                        <img class="place-block__image" src="assets/img/places_01.jpg">
+                                        <h3 class="subtitle">Парк Форсайт</h3>
+                                        <a href="#" class="btn">ПОДРОБНЕЕ</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="place-block">
+                                        <img class="place-block__image" src="assets/img/places_01.jpg">
+                                        <h3 class="subtitle">Парк Форсайт</h3>
+                                        <a href="#" class="btn">ПОДРОБНЕЕ</a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-pagination"></div>
-                        
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                        
-                            <div class="swiper-scrollbar"></div>
                         </div>
                     </div>
                 </section>
@@ -193,9 +203,35 @@
             </main>
         </div>
 
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-flex">
+                    <div class="footer-flex__item">
+                        <h2 class="subtitle">наши контакты</h2>
+                        <a class="text" href="telto:+7 (986) 532-80-22">+7 (986) 532-80-22</a>
+                        <a class="text" href="mailto:tursavanna@box.com">tursavanna@box.com</a>
+                    </div>  
+                    
+                    <div class="footer-flex__item">
+                        <h2 class="subtitle">соц. сети</h2>
+                        <a class="text" href="#">инстаграм</a>
+                        <a class="text" href="#">твиттер</a>
+                        <a class="text" href="#">вконтакте</a>
+                    </div>
+
+                    <div class="footer-flex__item">
+                        <h2 class="subtitle">Наш офис</h2>
+                        <p class="text">Россия, г. пенза, ул. Московская 3/2 </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
+    <script src="assets/libs/gsap/gsap.min.js"></script>
+	<script src="assets/libs/gsap/ScrollTrigger.min.js"></script>
+	<script src="assets/libs/gsap/ScrollSmoother.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
