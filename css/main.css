@@ -145,6 +145,10 @@ body {
   max-width: 1440px;
 }
 
+.invisible {
+  display: none;
+}
+
 .swiper {
   width: 600px;
   height: 300px;
