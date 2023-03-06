@@ -160,6 +160,10 @@ body {
   align-items: center;
 }
 
+.header__exit {
+  display: none;
+}
+
 .sec-one {
   display: flex;
   align-items: center;
